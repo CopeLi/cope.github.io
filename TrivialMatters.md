@@ -26,7 +26,7 @@ DISABLE_ASAN，选择是否开启 libasan 内存检测。
 ```
 mkdir -p cmake/build
 pushd cmake/build
-cmake -DCMAKE_INSTALL-PREFIX=/usr/local \
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local \
       ../..
 make -j 4
 make install
