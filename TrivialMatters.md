@@ -10,10 +10,7 @@ sudo apt update  // 先更新本地软件列表，确保获取到最新的版本
 
 ## pnpm切换：package manager
 ```
-
 1、备份你的项目，特别是 package.json 和锁文件（package-lock.json 或 yarn.lock）。 清理旧的依赖和锁文件：为了确保干净的迁移，可以删除 node_modules 文件夹和旧的锁文件。
-
-
 ```
 
 ## 编译过程的可选参数
@@ -34,4 +31,9 @@ cmake -DCMAKE_INSTALL-PREFIX=/usr/local \
 make -j 4
 make install
 popd
+```
+
+## socat工具
+```
+文件
 ```
