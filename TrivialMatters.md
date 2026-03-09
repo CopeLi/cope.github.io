@@ -25,3 +25,13 @@ DISABLE_WERROR，将所有的警告当作错误进行处理。
 DISABLE_ASAN，选择是否开启 libasan 内存检测。
 
 ```
+
+```
+mkdir -p cmake/build
+pushd cmake/build
+cmake -DCMAKE_INSTALL-PREFIX=/usr/local \
+      ../..
+make -j 4
+make install
+popd
+```
