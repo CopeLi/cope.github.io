@@ -15,3 +15,13 @@ sudo apt update  // 先更新本地软件列表，确保获取到最新的版本
 
 
 ```
+
+## 编译过程的可选参数
+```
+CMakeLists 中有三个可选参数：
+CMAKE_BUILD_TYPE "Debug"，默认编译 debug 版本。
+DISABLE_WERROR，将所有的警告当作错误进行处理。
+使用示例：cmake -DISABLE_WERROR=1 ..
+DISABLE_ASAN，选择是否开启 libasan 内存检测。
+
+```
